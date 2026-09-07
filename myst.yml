@@ -1,0 +1,17 @@
+version: 1
+project:
+  title: OceanVal validation report
+  toc:
+    - file: intro.md
+    - title: Summaries
+      children:
+        - file: notebooks/001_methods.ipynb
+        - file: notebooks/002_summary.ipynb
+    - title: Temperature
+      children:
+        - file: notebooks/001_COBE2_temperature.ipynb
+site:
+  template: book-theme
+  options:
+    logo: pml_logo.jpg
+    folders: true
